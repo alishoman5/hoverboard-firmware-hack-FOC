@@ -658,8 +658,8 @@
  
 
   // PRIMARY INPUT:          TYPE, MIN, MID, MAX, DEADBAND /* TYPE: 0:Disabled, 1:Normal Pot, 2:Middle Resting Pot, 3:Auto-detect */
-  #define PRI_INPUT1             2, -1000, 0, 1000, 0     // TYPE, MIN, MID, MAX, DEADBAND. See INPUT FORMAT section
-  #define PRI_INPUT2             2, -1000, 0, 1000, 0     // TYPE, MIN, MID, MAX, DEADBAND. See INPUT FORMAT section
+  #define PRI_INPUT1             1, -0, 0, 1000, 0     // TYPE, MIN, MID, MAX, DEADBAND. See INPUT FORMAT section
+  #define PRI_INPUT2             1, -0, 0, 1000, 0     // TYPE, MIN, MID, MAX, DEADBAND. See INPUT FORMAT section
   #define FLASH_WRITE_KEY      0x1012  // Flash memory writing key. Change this key to ignore the input calibrations from the flash memory and use the ones in config.h
 
   #define PREVENT_DOWNHILL_VIBRATIONS 9200		// 9800 = max pwm of 980 inistead of 9900 set by INPUTMAX in main.c lines 189ff
