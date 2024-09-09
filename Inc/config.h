@@ -699,7 +699,7 @@
 
 
 
-// ############################### APPLY DEFAULT SETTINGS ###############################
+// ############################## APPLY DEFAULT SETTINGS ###############################
 #ifndef RATE
   #define RATE DEFAULT_RATE
 #endif
